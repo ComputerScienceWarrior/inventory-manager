@@ -2,7 +2,7 @@ class InventoryItemsController < ApplicationController
     before_action :find_inventory_item, only: [:show]
 
     def index
-        @invetory_items = InvnetoryItem.all
+        @inventory_items = InventoryItem.all
     end
 
     def show
