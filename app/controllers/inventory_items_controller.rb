@@ -31,7 +31,7 @@ class InventoryItemsController < ApplicationController
     private
 
     def find_inventory_item
-        @inventory_item = InvnetoryItem.find(params[:id])
+        @inventory_item = InventoryItem.find(params[:id])
     end
 
     def inventory_item_params
